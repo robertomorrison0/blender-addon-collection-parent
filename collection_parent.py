@@ -89,9 +89,6 @@ class parent(bpy.types.Operator):
                 for obj in collection.all_objects:
                     items_parent.append(obj)        
         
-        print("------------------------------------------------------")
-        print("child\t\t\tparent\t\t\tdistance")
-        print("------------------------------------------------------")
         for  x in range( 0, len(items_child) ):
             a = items_child[x]
             distances = []
